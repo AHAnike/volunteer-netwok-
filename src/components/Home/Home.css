@@ -1,0 +1,22 @@
+.home{
+    /* border: 1px solid black; */
+    height: 980px;
+    background-position: center center;
+    background-size: 100% 100%;
+
+}
+
+h1{
+    
+    margin-left: 255px;
+    margin-top: 100px;
+    font-family: Roboto;
+    font-size: 35px;
+    color: black;
+}
+
+.mb-3{
+    width: 450px;
+    margin-left: 300px;
+    padding-top:20px;
+}

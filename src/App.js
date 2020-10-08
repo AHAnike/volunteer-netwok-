@@ -17,20 +17,8 @@ import AdminAddEvent from './components/Admin/AdminAddEvent';
 function App() {
   return (
     <Router>
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/login">Login</Link>
-            </li>
-            <li>
-              <Link to="/eventtasks">Events</Link>
-            </li>
-          </ul>
-        </nav>
+     
+        
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -41,9 +29,7 @@ function App() {
           <Route path="/signup">
             <SignUp/>
           </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          
           <Route path="/admin">
             <Admin></Admin>
           </Route>
@@ -53,8 +39,11 @@ function App() {
           <Route path="/adminaddevent">
             <AdminAddEvent/>
           </Route>
+          <Route path="/">
+            <Home />
+          </Route>
         </Switch>
-      </div>
+      
     </Router>
   );
 }
